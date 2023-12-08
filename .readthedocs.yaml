@@ -9,7 +9,7 @@ build:
   tools:
     python: "mambaforge-22.9"
   jobs:
-    post_create_environment:
+    post_install:
       - cat conda-lock.yml
       - mamba install -c conda-forge conda-lock
       - conda-lock install --name latest conda-lock.yml
