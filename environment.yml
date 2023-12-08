@@ -9,4 +9,3 @@ dependencies:
       - readthedocs-sphinx-ext
 platforms:
   - linux-64
-  - osx-arm64
