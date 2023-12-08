@@ -8,13 +8,6 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "mambaforge-22.9"
-  jobs:
-    post_install:
-      - cat conda-lock.yml
-      - mamba install -c conda-forge conda-lock
-      - conda-lock install --name latest conda-lock.yml
-      - conda info
-      - conda env list
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
