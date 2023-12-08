@@ -4,9 +4,6 @@ channels:
   - nodefaults
 dependencies:
   - python=3.10
-  - sphinx
   - pip
   - pip:
       - readthedocs-sphinx-ext
-platforms:
-  - linux-64
